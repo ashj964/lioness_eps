@@ -429,7 +429,7 @@
         "uuid": "aa28519f-b679-4a2d-85d7-ece879a7d207"
       }
     ],
-    "used_designators": "D1-2,#PWR1-4,#PWR10,#PWR45-65,PCB1,U1-5,SW1-2,C1-22,L1,MH1-4,X1,SBREV1,R1-12,JP1-2,VARIANT1,J1-9",
+    "used_designators": "#PWR1-4,#PWR10,#PWR45-65,D1-2,PCB1,U1-5,C1-22,SW1-2,L1,X1,MH1-4,SBREV1,R1-12,JP1-2,VARIANT1,J1-9",
     "variants": []
   },
   "sheets": [
