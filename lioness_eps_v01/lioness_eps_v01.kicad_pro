@@ -429,7 +429,7 @@
         "uuid": "aa28519f-b679-4a2d-85d7-ece879a7d207"
       }
     ],
-    "used_designators": "L1,MH1-4,SBREV1,X1,C1-22,U1-5,SW1-2,R1-11,#PWR45-48,D1,PCB1,JP1-2,VARIANT1,J1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,10 @@
     [
       "d6861b7a-483f-497b-a53e-78cc48fea903",
       "eps_mcu"
+    ],
+    [
+      "fe089a90-3119-4797-bb9c-924deca862ed",
+      "Solar Board"
     ]
   ],
   "text_variables": {},

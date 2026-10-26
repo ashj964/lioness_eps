@@ -3112,6 +3112,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3186,6 +3192,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -3272,6 +3284,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "Solar_Array_1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3346,6 +3364,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -3425,6 +3449,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -3523,6 +3553,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3605,6 +3641,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3679,6 +3721,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -3761,6 +3809,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3835,6 +3889,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -3918,6 +3978,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3996,6 +4062,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "Solar_Array_2")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "Solar_Array_2")
 					(unit 1)
 				)
@@ -4093,6 +4165,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4182,6 +4260,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4260,6 +4344,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4334,6 +4424,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -4417,6 +4513,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4492,6 +4594,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -4576,6 +4684,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4651,6 +4765,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -4733,6 +4853,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "R1")
 					(unit 1)
 				)
@@ -4831,6 +4957,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4905,6 +5037,12 @@
 		(instances
 			(project "Solar-Board-V1"
 				(path "/5e490227-0696-40e0-90d9-03409ea27a33"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -4987,12 +5125,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/fe089a90-3119-4797-bb9c-924deca862ed"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
