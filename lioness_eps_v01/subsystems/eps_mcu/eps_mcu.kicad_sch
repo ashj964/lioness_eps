@@ -15839,9 +15839,9 @@
 		)
 		(uuid "3f747403-b397-49f5-aef8-eb960dca1860")
 	)
-	(text "VBatt:\nPACK+:\nPACK-:\nB-:"
+	(text "VBatt: + supply after I-sense R and diode, before Foot0\nPACK+: + terminal\nPACK-: - terminal\nB-: - connection after protection circuit"
 		(exclude_from_sim no)
-		(at 543.052 165.1 0)
+		(at 488.442 156.21 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -23634,7 +23634,7 @@
 			)
 		)
 	)
-	(global_label "PACK-"
+	(global_label "B-"
 		(shape bidirectional)
 		(at 209.55 68.58 90)
 		(fields_autoplaced yes)
@@ -23646,7 +23646,7 @@
 		)
 		(uuid "9f6ec061-4d5d-40fe-bcbf-576eed012841")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 191.77 0)
+			(at 209.55 61.6411 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23654,6 +23654,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
