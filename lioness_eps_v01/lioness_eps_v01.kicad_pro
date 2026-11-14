@@ -429,7 +429,7 @@
         "uuid": "aa28519f-b679-4a2d-85d7-ece879a7d207"
       }
     ],
-    "used_designators": "TP6,PCB1,#PWR1-4,#PWR10,#PWR14,#PWR17-20,#PWR32,#PWR45-66,#PWR99-102,D1-3,Q4,Q6-9,C1-23,C54,K1,SW1-2,U1-5,L1,X1,MH1-4,SBREV1,R1-13,R19,R21-24,R27-28,R58,R60,R62-65,JP1-2,VARIANT1,J1-11,J17",
+    "used_designators": "#U$6,IC5,#+3V19,Cout1,TP6,TP10,PCB1,#PWR1-4,#PWR10,#PWR14,#PWR17-20,#PWR32,#PWR45-81,#PWR90,#PWR99-102,#PWR105,#PWR108-109,D1-3,Q1-2,Q4,Q6-9,C1-37,C51-54,K1,SW1-2,U1-10,Cin1-2,L1-5,X1,MH1-4,SBREV1,R1-24,R27-28,R48,R58,R60,R62-68,JP1-2,VARIANT1,J1-11,J14,J16-17,J26-27",
     "variants": []
   },
   "sheets": [
@@ -444,6 +444,10 @@
     [
       "fe089a90-3119-4797-bb9c-924deca862ed",
       "Solar Board"
+    ],
+    [
+      "5b12b368-358c-4620-9c4d-80a633c52c5e",
+      "buck_converters"
     ]
   ],
   "text_variables": {},

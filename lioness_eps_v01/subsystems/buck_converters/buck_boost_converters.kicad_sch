@@ -6573,7 +6573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0024f244-240e-4173-a838-6cf8f2d5b7bb")
-		(property "Reference" "C10"
+		(property "Reference" "C32"
 			(at 207.772 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6636,6 +6636,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6717,6 +6723,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6731,7 +6743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "029f2223-7cfc-4477-a28b-9cdce4f285ba")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 203.2 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,6 +6878,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6941,6 +6959,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#FLG011")
 					(unit 1)
 				)
@@ -7027,6 +7051,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "Cout1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7040,7 +7070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06aaf5af-639d-49d9-ae8d-949f6dc25e47")
-		(property "Reference" "C11"
+		(property "Reference" "C33"
 			(at 209.042 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,6 +7133,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -7180,6 +7216,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -7262,6 +7304,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7276,7 +7324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091bbe8c-d999-42a3-ba04-a600211b0997")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 47.8633 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,6 +7579,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7544,7 +7598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12166a79-0d06-4346-8412-703243e96400")
-		(property "Reference" "C3"
+		(property "Reference" "C25"
 			(at 131.318 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,6 +7661,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7689,6 +7749,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7703,7 +7769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1642220c-2f2b-47c1-9c95-b5b713f8f129")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 91.44 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,6 +7876,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7824,7 +7896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b547a64-f041-470b-bd2a-7e880d63c8fa")
-		(property "Reference" "C12"
+		(property "Reference" "C34"
 			(at 256.54 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,6 +7962,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7903,7 +7981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cdcdbf6-3bad-494e-b6e1-78a3a34a7bb9")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 142.24 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,6 +8044,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8043,6 +8127,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -8125,6 +8215,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8138,7 +8234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2339aa72-150b-4c23-99cd-e9e2e759213d")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 242.824 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,6 +8300,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "L4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8218,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b97708-28a1-46af-900e-27390b78b859")
-		(property "Reference" "C14"
+		(property "Reference" "C36"
 			(at 267.97 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,6 +8388,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C36")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8299,7 +8407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b091293-aa1c-4aef-943f-5875c53917b9")
-		(property "Reference" "R6"
+		(property "Reference" "R20"
 			(at 267.97 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,6 +8470,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8444,6 +8558,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8458,7 +8578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c35e504-c6f0-4e9b-90a9-1b9201a75cba")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 203.2 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,6 +8691,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8646,6 +8772,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#FLG07")
 					(unit 1)
 				)
@@ -8728,6 +8860,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8802,6 +8940,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -8884,6 +9028,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8958,6 +9108,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -9041,6 +9197,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9054,7 +9216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d345c17-98c5-45ed-aae7-3775f659fd7b")
-		(property "Reference" "R4"
+		(property "Reference" "R17"
 			(at 250.444 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9117,6 +9279,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9198,6 +9366,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9212,7 +9386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c6be86c-3c84-443e-8d93-27566bdfd5ac")
-		(property "Reference" "R8"
+		(property "Reference" "R24"
 			(at 274.32 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9280,6 +9454,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9293,7 +9473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d9d07c2-f394-46ba-bec4-8be894abf5f0")
-		(property "Reference" "C6"
+		(property "Reference" "C28"
 			(at 141.224 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,6 +9536,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9436,6 +9622,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9450,7 +9642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74417518-537d-409c-9e21-fab193173769")
-		(property "Reference" "C13"
+		(property "Reference" "C35"
 			(at 265.43 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9518,6 +9710,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9531,7 +9729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74f034ad-d689-4ea2-8b14-3ce147313f13")
-		(property "Reference" "R2"
+		(property "Reference" "R15"
 			(at 18.796 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9596,6 +9794,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9673,6 +9877,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -9758,6 +9968,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "Cin1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9836,6 +10052,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9910,6 +10132,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -9993,6 +10221,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10006,7 +10240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82c074be-5652-4a60-a78d-a9b5c1f8be26")
-		(property "Reference" "R3"
+		(property "Reference" "R16"
 			(at 250.698 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10069,6 +10303,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10151,6 +10391,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10224,6 +10470,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -10306,6 +10558,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10384,6 +10642,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10397,7 +10661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95c0f180-5fb6-4fb6-a5d5-1e504c4f50e9")
-		(property "Reference" "L4"
+		(property "Reference" "L5"
 			(at 266.7 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,6 +10724,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -10537,6 +10807,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -10619,6 +10895,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10633,7 +10915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da394da-2875-4c9a-9486-3ca01f436b57")
-		(property "Reference" "R7"
+		(property "Reference" "R22"
 			(at 274.32 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,6 +10983,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10715,7 +11003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fad0049-53a7-4ff5-9364-8f798a1292e0")
-		(property "Reference" "U5"
+		(property "Reference" "U10"
 			(at 226.06 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,6 +11095,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10885,6 +11179,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10898,7 +11198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a81faae4-a893-4a9d-af2a-90a9a63d9609")
-		(property "Reference" "C8"
+		(property "Reference" "C30"
 			(at 150.114 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,6 +11261,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11038,6 +11344,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -11120,6 +11432,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11194,6 +11512,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -11280,6 +11604,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11294,7 +11624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e58728-cdc9-4eec-9a4d-b9bf0f3ba4fb")
-		(property "Reference" "C4"
+		(property "Reference" "C26"
 			(at 140.97 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11359,6 +11689,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11444,6 +11780,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "Cin2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11523,6 +11865,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11536,7 +11884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c53b894e-60c7-4363-a2bb-357272667eff")
-		(property "Reference" "R5"
+		(property "Reference" "R18"
 			(at 251.46 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,6 +11950,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11615,7 +11969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7383c96-d2a0-4c17-aa3b-82b8fc1b2637")
-		(property "Reference" "C1"
+		(property "Reference" "C23"
 			(at 29.972 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11678,6 +12032,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11759,6 +12119,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11772,7 +12138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c877a15b-b524-4d55-abc1-b61bd2be4764")
-		(property "Reference" "C9"
+		(property "Reference" "C31"
 			(at 166.624 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,6 +12201,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -11916,6 +12288,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11929,7 +12307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7d7e5b4-a2bb-4349-b894-a966fc49f266")
-		(property "Reference" "R1"
+		(property "Reference" "R14"
 			(at 18.796 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11997,6 +12375,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12010,7 +12394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8640182-0dce-436e-b603-978e02b6d23f")
-		(property "Reference" "C7"
+		(property "Reference" "C29"
 			(at 157.734 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12076,6 +12460,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12089,7 +12479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2c10c3c-9e9b-4300-a413-472d94ffece0")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 243.84 28.702 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12152,6 +12542,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -12229,6 +12625,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -12311,6 +12713,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12325,7 +12733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d6dde6-d29e-4a64-a41b-8515b7d2baf4")
-		(property "Reference" "C5"
+		(property "Reference" "C27"
 			(at 142.24 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12393,6 +12801,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12407,7 +12821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e3e604-b09d-4529-9104-5a5b96f4171a")
-		(property "Reference" "C15"
+		(property "Reference" "C37"
 			(at 269.24 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12472,6 +12886,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -12557,6 +12977,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12635,6 +13061,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12648,7 +13080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0ade743-4766-4aef-8054-e2acc36e9c0d")
-		(property "Reference" "C2"
+		(property "Reference" "C24"
 			(at 38.608 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12711,6 +13143,12 @@
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12792,6 +13230,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12866,6 +13310,12 @@
 		(instances
 			(project "buck_boost_converters"
 				(path "/8c169135-1242-468c-90c6-25dc378b714e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -12949,6 +13399,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13027,12 +13483,12 @@
 					(unit 1)
 				)
 			)
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/5b12b368-358c-4620-9c4d-80a633c52c5e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
