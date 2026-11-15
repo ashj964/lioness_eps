@@ -6237,6 +6237,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Oscillator:ASE-xxxMHz"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ASE-xxxMHz"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+				(at 17.78 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "3.3V CMOS SMD Crystal Clock Oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*Abracon*ASE*3.2x2.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASE-xxxMHz_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ASE-xxxMHz_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RPI - BOM Directives:PCB_PWB_REV"
 			(pin_names
 				(offset 0.254)
@@ -7522,349 +7710,6 @@
 				)
 			)
 			(symbol "Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RPI_DB:Capacitors | MLCC | M1005/RP-01C89W-LLY9XV"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.032 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "15p"
-				(at 2.032 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM1555C1H150JA01D\\datasheets"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "package" "M1005"
-				(at 2.032 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "voltage" "50V"
-				(at 2.032 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "dielectric" "C0G"
-				(at 2.032 -3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "tolerance" "5%"
-				(at 2.032 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "part_uid" "RP-01C89W-LLY9XV"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "status" "OK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manufacturer_pn" "GRM1555C1H150JA01D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "packaging" "180mm paper taping"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "packaging_qty" "10000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "lcsc_pn" "C76950"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "temp_coefficient" "C0G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "operating_temp_max" "+125C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "operating_temp_min" "-55C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "material" "Ceramic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "size" "1.0x0.5x0.5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "capacitance" "15p"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "z_height_nom" "0.5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitors | MLCC | M1005/RP-01C89W-LLY9XV_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Capacitors | MLCC | M1005/RP-01C89W-LLY9XV_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -11143,426 +10988,6 @@
 				)
 				(pin passive line
 					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RPI_DB:Frequency_Timing | Crystals/RP-01G8X7-GS352B"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X"
-				(at -3.048 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "12MHz"
-				(at 7.62 -5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RPI_COMPILED:generic_xtalcc320x250x80-4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Frequency_Timing\\Crystals\\ABRACON_ABM8-272-T3\\datasheets"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "XTAL, SMT, 12 MHz, Fundamental, Ftol=30ppm, Fstab=30ppm, 10pF, 3.2x2.5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "part_uid" "RP-01G8X7-GS352B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "status" "OK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manufacturer" "Abracon"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manufacturer_pn" "ABM8-272-T3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "packaging" "180mm dia. tape & reel"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "packaging_qty" "3000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "lcsc_pn" "C20625731"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "size" "3.2x2.5x0.8mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "frequency" "12MHz"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "tolerance" "30ppm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "operating_temp_max" "+85C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "load_capacitance" "10pF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "operating_temp_min" "-40C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "z_height_max" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "esr" "50R Max"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "package" "M3225"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "z_height_nom" "0.8mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "freq_stability" "30ppm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "RPI_COMPILED:generic_xtalcc320x250x80-4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Frequency_Timing | Crystals/RP-01G8X7-GS352B_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Frequency_Timing | Crystals/RP-01G8X7-GS352B_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -6.35 90)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -19183,6 +18608,16 @@
 		)
 		(uuid "5bedfe71-7a66-4303-9048-95871c5ee561")
 	)
+	(text "place C38 close to pins 4 & 2\nkeep XIN trace short"
+		(exclude_from_sim no)
+		(at 219.71 331.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6160b1a3-8825-414b-81fc-a64c5b976155")
+	)
 	(text "Primary Flash (16MB)"
 		(exclude_from_sim no)
 		(at 46.228 188.722 0)
@@ -19237,7 +18672,7 @@
 		)
 		(uuid "86bb0ca2-de6f-4c16-a6ef-06ad559cf577")
 	)
-	(text "12MHz Crystal (*to MEMS)"
+	(text "12MHz MEMS Oscillator"
 		(exclude_from_sim no)
 		(at 182.88 304.546 0)
 		(effects
@@ -19361,19 +18796,13 @@
 		(uuid "025b022b-4082-4a8e-a761-0b5d644fdb24")
 	)
 	(junction
-		(at 190.5 312.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03de44fc-bf16-46ba-a1ea-e031fb3db25d")
-	)
-	(junction
 		(at 125.73 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "066736b4-1594-4c95-9b43-786eeff2676f")
 	)
 	(junction
-		(at 472.44 25.4)
+		(at 306.07 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08fdedca-88d0-4734-ae54-3d13d0f4061c")
@@ -19415,7 +18844,7 @@
 		(uuid "16373dca-4fe1-4e8e-af7b-11457b9def32")
 	)
 	(junction
-		(at 495.3 40.64)
+		(at 328.93 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16c71cd7-d66d-43be-ab55-fc3f39b7a426")
@@ -19437,12 +18866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26236ef1-4184-40f9-8a77-d3419377e2e3")
-	)
-	(junction
-		(at 168.91 317.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28bbfd2f-9cc7-4050-8c08-51d6796db5ce")
 	)
 	(junction
 		(at 491.49 109.22)
@@ -19517,13 +18940,13 @@
 		(uuid "355578a8-94b1-4741-9727-026cecc55747")
 	)
 	(junction
-		(at 483.87 40.64)
+		(at 317.5 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a10ab0a-3052-4c92-8c6b-046ec99ceb86")
 	)
 	(junction
-		(at 541.02 25.4)
+		(at 374.65 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b8752a3-4ab9-4f3e-92cd-ae88ec741dba")
@@ -19559,7 +18982,7 @@
 		(uuid "44be0b8f-564c-469e-bdc3-a706dfce54f3")
 	)
 	(junction
-		(at 483.87 25.4)
+		(at 317.5 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44fd151b-27d2-472a-aa3b-608976c3ffe5")
@@ -19577,22 +19000,10 @@
 		(uuid "4b7f5e3e-4d17-47a7-82e3-df1295be6c6a")
 	)
 	(junction
-		(at 190.5 327.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bb2b1e3-614c-45f9-a75c-c6d273f28d96")
-	)
-	(junction
 		(at 566.42 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e18b4c6-efdc-435f-880c-743b220ae1c3")
-	)
-	(junction
-		(at 168.91 322.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51b9a610-1de1-4a1b-8ca8-ba60f610b070")
 	)
 	(junction
 		(at 408.94 204.47)
@@ -19607,7 +19018,7 @@
 		(uuid "592372f3-4a82-49ce-abea-4d868efd005f")
 	)
 	(junction
-		(at 495.3 25.4)
+		(at 328.93 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59814a02-4c8b-42e6-8e1a-36317e601db0")
@@ -19631,7 +19042,7 @@
 		(uuid "633f6aef-ed1d-4f02-943d-86d05c6796f2")
 	)
 	(junction
-		(at 518.16 40.64)
+		(at 351.79 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6582e1f2-f342-4c0c-af9a-b8984faa38d0")
@@ -19649,7 +19060,7 @@
 		(uuid "6df0403b-4927-48c7-8351-0f00eb318b57")
 	)
 	(junction
-		(at 529.59 25.4)
+		(at 363.22 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e04c5d1-d7ae-468d-91c2-9d0aa71e7090")
@@ -19673,7 +19084,7 @@
 		(uuid "723a46ba-706c-4972-9a25-f4384c05d139")
 	)
 	(junction
-		(at 506.73 40.64)
+		(at 340.36 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740bdff5-d5c1-47c2-ae40-3bb49b033c76")
@@ -19745,13 +19156,19 @@
 		(uuid "803b7644-84a6-4684-a4a4-e39569f499d3")
 	)
 	(junction
+		(at 199.39 314.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d4bd12-2df1-4bd2-99bb-282804da2788")
+	)
+	(junction
 		(at 566.42 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81012ced-d0d6-43b5-a002-50b38d294043")
 	)
 	(junction
-		(at 506.73 25.4)
+		(at 340.36 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8545a5a3-2d77-4a12-b7c7-6796d636abcc")
@@ -19775,7 +19192,7 @@
 		(uuid "85fa39f9-3061-42bc-9a31-c4f2590f2355")
 	)
 	(junction
-		(at 541.02 40.64)
+		(at 374.65 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ac8be12-9d3f-4911-b7d1-8f8a09d78d4f")
@@ -19803,12 +19220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9196770e-6fc6-4a22-8848-cef2f584ad85")
-	)
-	(junction
-		(at 168.91 327.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9267be70-692f-4a57-8b8f-666b7db31add")
 	)
 	(junction
 		(at 491.49 81.28)
@@ -19931,7 +19342,7 @@
 		(uuid "b43f65f3-6451-4186-958c-517bd491c8aa")
 	)
 	(junction
-		(at 518.16 25.4)
+		(at 351.79 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b50e37-c087-49b2-867b-fe99e053eeef")
@@ -20033,7 +19444,7 @@
 		(uuid "d1863421-18b6-46da-8166-d94eaf2032d6")
 	)
 	(junction
-		(at 529.59 40.64)
+		(at 363.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2eff7bb-4940-4a1c-8f26-cc1186ecca62")
@@ -20069,7 +19480,7 @@
 		(uuid "db2a2051-0519-4eac-8909-38ff55020051")
 	)
 	(junction
-		(at 563.88 40.64)
+		(at 397.51 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dba007a4-d84a-4f75-92d6-b4916805113d")
@@ -20147,7 +19558,7 @@
 		(uuid "f6e0b5d2-da59-4734-bf87-9f275a2f748b")
 	)
 	(junction
-		(at 552.45 25.4)
+		(at 386.08 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8ef8fd3-2b79-414f-ac06-5801254720c1")
@@ -20165,7 +19576,7 @@
 		(uuid "fbc74c42-a45c-4fd8-bfd1-d78718a3a029")
 	)
 	(junction
-		(at 552.45 40.64)
+		(at 386.08 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd045b08-cf30-48db-a275-fa08a752a7f7")
@@ -20197,6 +19608,10 @@
 		(uuid "6a847720-5d02-4ac2-a778-37258a258188")
 	)
 	(no_connect
+		(at 200.66 256.54)
+		(uuid "85e7ccd1-5eae-432b-81c2-bee648547e8a")
+	)
+	(no_connect
 		(at 39.37 49.53)
 		(uuid "a50d40e8-fdaf-4cf4-a438-5efa5d0ed64b")
 	)
@@ -20206,7 +19621,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 30.48) (xy 472.44 25.4)
+			(xy 306.07 33.02) (xy 306.07 27.94)
 		)
 		(stroke
 			(width 0)
@@ -20366,7 +19781,7 @@
 	)
 	(wire
 		(pts
-			(xy 552.45 35.56) (xy 552.45 40.64)
+			(xy 386.08 38.1) (xy 386.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -20466,7 +19881,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 35.56) (xy 563.88 40.64)
+			(xy 397.51 38.1) (xy 397.51 43.18)
 		)
 		(stroke
 			(width 0)
@@ -20513,16 +19928,6 @@
 			(type default)
 		)
 		(uuid "0c219bb4-5d76-4741-8185-56ec7d5c3de5")
-	)
-	(wire
-		(pts
-			(xy 190.5 312.42) (xy 222.25 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c225c4b-c173-4e79-b176-54a63c0a9227")
 	)
 	(wire
 		(pts
@@ -20596,7 +20001,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 40.64) (xy 552.45 40.64)
+			(xy 397.51 43.18) (xy 386.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -20686,16 +20091,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 327.66) (xy 177.8 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143a30ef-5591-4294-a805-e6c495310bc7")
-	)
-	(wire
-		(pts
 			(xy 326.5678 223.0628) (xy 326.5678 223.0374)
 		)
 		(stroke
@@ -20723,16 +20118,6 @@
 			(type default)
 		)
 		(uuid "14f7dd49-1114-4010-9870-b983757698fd")
-	)
-	(wire
-		(pts
-			(xy 182.88 312.42) (xy 190.5 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150b93a1-08a4-4be5-a6d3-1131c2932616")
 	)
 	(wire
 		(pts
@@ -20966,16 +20351,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 327.66) (xy 168.91 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d46cd12-1178-44ca-b5e0-8bcabc52d246")
-	)
-	(wire
-		(pts
 			(xy 93.98 312.42) (xy 95.25 312.42)
 		)
 		(stroke
@@ -21076,7 +20451,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 24.13) (xy 463.55 25.4)
+			(xy 297.18 26.67) (xy 297.18 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21256,7 +20631,7 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 40.64) (xy 495.3 40.64)
+			(xy 340.36 43.18) (xy 328.93 43.18)
 		)
 		(stroke
 			(width 0)
@@ -21486,7 +20861,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 25.4) (xy 495.3 25.4)
+			(xy 317.5 27.94) (xy 328.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21516,7 +20891,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 25.4) (xy 483.87 25.4)
+			(xy 306.07 27.94) (xy 317.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21666,7 +21041,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 25.4) (xy 472.44 25.4)
+			(xy 297.18 27.94) (xy 306.07 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21716,7 +21091,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 30.48) (xy 563.88 25.4)
+			(xy 397.51 33.02) (xy 397.51 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21726,7 +21101,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 35.56) (xy 495.3 40.64)
+			(xy 328.93 38.1) (xy 328.93 43.18)
 		)
 		(stroke
 			(width 0)
@@ -21826,16 +21201,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 317.5) (xy 168.91 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48402520-21f3-4ee5-aab8-1c84a1ab93d4")
-	)
-	(wire
-		(pts
 			(xy 565.15 81.28) (xy 566.42 81.28)
 		)
 		(stroke
@@ -21853,16 +21218,6 @@
 			(type default)
 		)
 		(uuid "48f03114-5715-4334-9212-5f057b8647e9")
-	)
-	(wire
-		(pts
-			(xy 190.5 326.39) (xy 190.5 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49bc1d2e-5069-4d04-a767-7b4c06d90417")
 	)
 	(wire
 		(pts
@@ -21896,7 +21251,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 35.56) (xy 472.44 40.64)
+			(xy 306.07 38.1) (xy 306.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -22086,7 +21441,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 25.4) (xy 552.45 25.4)
+			(xy 397.51 27.94) (xy 386.08 27.94)
 		)
 		(stroke
 			(width 0)
@@ -22116,7 +21471,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 25.4) (xy 529.59 25.4)
+			(xy 351.79 27.94) (xy 363.22 27.94)
 		)
 		(stroke
 			(width 0)
@@ -22126,7 +21481,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 35.56) (xy 518.16 40.64)
+			(xy 351.79 38.1) (xy 351.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -22206,7 +21561,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 30.48) (xy 529.59 25.4)
+			(xy 363.22 33.02) (xy 363.22 27.94)
 		)
 		(stroke
 			(width 0)
@@ -22296,7 +21651,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 40.64) (xy 483.87 40.64)
+			(xy 328.93 43.18) (xy 317.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -22506,7 +21861,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 25.4) (xy 506.73 25.4)
+			(xy 328.93 27.94) (xy 340.36 27.94)
 		)
 		(stroke
 			(width 0)
@@ -22623,6 +21978,16 @@
 			(type default)
 		)
 		(uuid "67399d2e-2ba1-4e2e-bb4b-382096913f48")
+	)
+	(wire
+		(pts
+			(xy 210.82 314.96) (xy 223.52 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673d7b28-8869-4d7e-b7e9-e674b9ff159e")
 	)
 	(wire
 		(pts
@@ -22856,7 +22221,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 40.64) (xy 506.73 40.64)
+			(xy 351.79 43.18) (xy 340.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -22876,7 +22241,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 35.56) (xy 529.59 40.64)
+			(xy 363.22 38.1) (xy 363.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -23036,6 +22401,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 314.96) (xy 203.2 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e57a508-312d-4e4a-b32a-c91aabbf70ac")
+	)
+	(wire
+		(pts
 			(xy 77.47 201.93) (xy 77.47 208.28)
 		)
 		(stroke
@@ -23043,16 +22418,6 @@
 			(type default)
 		)
 		(uuid "7e9b5d69-0ad8-4e4f-bf0f-b524c0b0d244")
-	)
-	(wire
-		(pts
-			(xy 190.5 313.69) (xy 190.5 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eaf8897-7c3c-4a94-b0fa-83ac7ad45a09")
 	)
 	(wire
 		(pts
@@ -23406,7 +22771,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 40.64) (xy 541.02 40.64)
+			(xy 363.22 43.18) (xy 374.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -23686,17 +23051,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 322.58) (xy 168.91 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0290f7c-972f-4b5f-8114-77b6b42dc5bb")
-	)
-	(wire
-		(pts
-			(xy 506.73 35.56) (xy 506.73 40.64)
+			(xy 340.36 38.1) (xy 340.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -23716,7 +23071,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 40.64) (xy 472.44 40.64)
+			(xy 317.5 43.18) (xy 306.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -23786,17 +23141,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 317.5) (xy 184.15 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44f381e-04ca-487d-8f84-3ec3ca120fe8")
-	)
-	(wire
-		(pts
-			(xy 552.45 40.64) (xy 541.02 40.64)
+			(xy 386.08 43.18) (xy 374.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -23806,7 +23151,7 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 25.4) (xy 518.16 25.4)
+			(xy 340.36 27.94) (xy 351.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -23886,7 +23231,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 30.48) (xy 483.87 25.4)
+			(xy 317.5 33.02) (xy 317.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -24116,7 +23461,7 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 30.48) (xy 506.73 25.4)
+			(xy 340.36 33.02) (xy 340.36 27.94)
 		)
 		(stroke
 			(width 0)
@@ -24496,17 +23841,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 327.66) (xy 205.74 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30d5ae1-3442-49fc-9980-f7f27f2e0390")
-	)
-	(wire
-		(pts
-			(xy 529.59 25.4) (xy 541.02 25.4)
+			(xy 363.22 27.94) (xy 374.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -24556,7 +23891,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 35.56) (xy 483.87 40.64)
+			(xy 317.5 38.1) (xy 317.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -24766,7 +24101,17 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 35.56) (xy 541.02 40.64)
+			(xy 207.01 322.58) (xy 212.09 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0043cd6-f9d3-4651-bc21-8995dc16987f")
+	)
+	(wire
+		(pts
+			(xy 374.65 38.1) (xy 374.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -24926,16 +24271,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 327.66) (xy 190.5 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bae808-fb58-4028-b56c-08572103249a")
-	)
-	(wire
-		(pts
 			(xy 417.83 259.08) (xy 417.83 260.35)
 		)
 		(stroke
@@ -25056,7 +24391,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 30.48) (xy 518.16 25.4)
+			(xy 351.79 33.02) (xy 351.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -25166,16 +24501,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 312.42) (xy 168.91 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de84520a-d2e5-4554-8384-a8d805d76ebe")
-	)
-	(wire
-		(pts
 			(xy 417.83 267.97) (xy 417.83 269.24)
 		)
 		(stroke
@@ -25226,7 +24551,7 @@
 	)
 	(wire
 		(pts
-			(xy 552.45 25.4) (xy 541.02 25.4)
+			(xy 386.08 27.94) (xy 374.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -25303,16 +24628,6 @@
 			(type default)
 		)
 		(uuid "e57a08da-81b0-4275-a1bd-15223610cd5f")
-	)
-	(wire
-		(pts
-			(xy 168.91 322.58) (xy 184.15 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5d1e353-b4b1-4749-9ee7-7611104e227e")
 	)
 	(wire
 		(pts
@@ -25656,7 +24971,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 30.48) (xy 541.02 25.4)
+			(xy 374.65 33.02) (xy 374.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -25666,7 +24981,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 40.64) (xy 518.16 40.64)
+			(xy 363.22 43.18) (xy 351.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -25676,7 +24991,7 @@
 	)
 	(wire
 		(pts
-			(xy 552.45 25.4) (xy 552.45 30.48)
+			(xy 386.08 27.94) (xy 386.08 33.02)
 		)
 		(stroke
 			(width 0)
@@ -25693,16 +25008,6 @@
 			(type default)
 		)
 		(uuid "f3300d07-cc89-4c9b-a004-d6992c97e31d")
-	)
-	(wire
-		(pts
-			(xy 210.82 327.66) (xy 222.25 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ad19f9-89b2-4acf-9d16-b0825a7dd534")
 	)
 	(wire
 		(pts
@@ -25856,7 +25161,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 30.48) (xy 495.3 25.4)
+			(xy 328.93 33.02) (xy 328.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -25873,16 +25178,6 @@
 			(type default)
 		)
 		(uuid "fc924f96-2cf6-43b0-b9b7-84bf9da87ef4")
-	)
-	(wire
-		(pts
-			(xy 168.91 312.42) (xy 177.8 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd26222a-2e33-42ed-80ea-03696479da68")
 	)
 	(wire
 		(pts
@@ -25946,7 +25241,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 40.64) (xy 563.88 41.91)
+			(xy 397.51 43.18) (xy 397.51 44.45)
 		)
 		(stroke
 			(width 0)
@@ -26294,16 +25589,6 @@
 		)
 		(uuid "32a68ac1-0ff3-4b91-ac49-fd2315a0275e")
 	)
-	(label "XIN"
-		(at 222.25 312.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "335c5b6f-9666-4bf0-a450-44c9d4b4e61a")
-	)
 	(label "GPIO8"
 		(at 143.51 190.5 0)
 		(effects
@@ -26513,16 +25798,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ba7f65f-fc11-499f-b5e9-6b6245a06fc9")
-	)
-	(label "XOUT"
-		(at 222.25 327.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c378d07-3089-42cd-9d50-60769f7e4133")
 	)
 	(label "QSPI_SD2"
 		(at 60.96 308.61 0)
@@ -26883,6 +26158,16 @@
 			(justify right bottom)
 		)
 		(uuid "9cd2f5e3-8f7e-4d1c-9195-683b1bee4dce")
+	)
+	(label "XIN"
+		(at 212.09 322.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a16547a3-474c-4b2d-93b0-bddea930945f")
 	)
 	(label "GPIO14"
 		(at 143.51 208.28 0)
@@ -27598,7 +26883,7 @@
 			)
 		)
 	)
-	(global_label "EPS_UART0_TX"
+	(global_label "EPS_UART_TX"
 		(shape input)
 		(at 104.14 124.46 90)
 		(fields_autoplaced yes)
@@ -27610,7 +26895,7 @@
 		)
 		(uuid "4c45bdb5-f009-4cb5-b16e-9aa21c455557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 107.8678 90)
+			(at 104.14 109.0773 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27861,8 +27146,8 @@
 			)
 		)
 	)
-	(global_label "EPS_UART0_TX"
-		(shape output)
+	(global_label "EPS_UART_RX"
+		(shape input)
 		(at 143.51 205.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -27873,7 +27158,7 @@
 		)
 		(uuid "7bcd2048-123f-4704-aa91-f754fab85d2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9178 205.74 0)
+			(at 127.8249 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27932,8 +27217,8 @@
 			)
 		)
 	)
-	(global_label "EPS_UART0_RX"
-		(shape input)
+	(global_label "EPS_UART_TX"
+		(shape output)
 		(at 143.51 203.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -27944,7 +27229,7 @@
 		)
 		(uuid "96ef3d2b-0b86-4331-a539-3b343467c65c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.6154 203.2 0)
+			(at 128.1273 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28315,7 +27600,7 @@
 			)
 		)
 	)
-	(global_label "EPS_UART0_RX"
+	(global_label "EPS_UART_RX"
 		(shape output)
 		(at 106.68 124.46 90)
 		(fields_autoplaced yes)
@@ -28327,7 +27612,7 @@
 		)
 		(uuid "d3de85e4-ba34-45d8-a3f4-82a101441d74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 107.5654 90)
+			(at 106.68 108.7749 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30182,7 +29467,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 472.44 33.02 0)
+		(at 306.07 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30192,7 +29477,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eeee897")
 		(property "Reference" "C12"
-			(at 474.472 27.94 0)
+			(at 308.102 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30203,7 +29488,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 474.472 29.972 0)
+			(at 308.102 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30214,7 +29499,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30225,7 +29510,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30236,7 +29521,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30247,7 +29532,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 474.472 38.1 0)
+			(at 308.102 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30258,7 +29543,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 474.472 34.036 0)
+			(at 308.102 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30269,7 +29554,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 474.472 36.068 0)
+			(at 308.102 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30280,7 +29565,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 474.472 32.004 0)
+			(at 308.102 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30291,7 +29576,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30302,7 +29587,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30313,7 +29598,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30324,7 +29609,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30335,7 +29620,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30346,7 +29631,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30357,7 +29642,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30368,7 +29653,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30379,7 +29664,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30390,7 +29675,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30401,7 +29686,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30412,7 +29697,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 472.44 33.02 0)
+			(at 306.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30445,7 +29730,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 483.87 33.02 0)
+		(at 317.5 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30455,7 +29740,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef00bb")
 		(property "Reference" "C13"
-			(at 485.902 27.94 0)
+			(at 319.532 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30466,7 +29751,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 485.902 29.972 0)
+			(at 319.532 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30477,7 +29762,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30488,7 +29773,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30499,7 +29784,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30510,7 +29795,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 485.902 38.1 0)
+			(at 319.532 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30521,7 +29806,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 485.902 34.036 0)
+			(at 319.532 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30532,7 +29817,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 485.902 36.068 0)
+			(at 319.532 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30543,7 +29828,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 485.902 32.004 0)
+			(at 319.532 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30554,7 +29839,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30565,7 +29850,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30576,7 +29861,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30587,7 +29872,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30598,7 +29883,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30609,7 +29894,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30620,7 +29905,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30631,7 +29916,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30642,7 +29927,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30653,7 +29938,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30664,7 +29949,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30675,7 +29960,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 483.87 33.02 0)
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30708,7 +29993,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 495.3 33.02 0)
+		(at 328.93 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30718,7 +30003,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef0473")
 		(property "Reference" "C15"
-			(at 497.332 27.94 0)
+			(at 330.962 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30729,7 +30014,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 497.332 29.972 0)
+			(at 330.962 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30740,7 +30025,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30751,7 +30036,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30762,7 +30047,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30773,7 +30058,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 497.332 38.1 0)
+			(at 330.962 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30784,7 +30069,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 497.332 34.036 0)
+			(at 330.962 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30795,7 +30080,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 497.332 36.068 0)
+			(at 330.962 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30806,7 +30091,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 497.332 32.004 0)
+			(at 330.962 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30817,7 +30102,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30828,7 +30113,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30839,7 +30124,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30850,7 +30135,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30861,7 +30146,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30872,7 +30157,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30883,7 +30168,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30894,7 +30179,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30905,7 +30190,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30916,7 +30201,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30927,7 +30212,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30938,7 +30223,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 495.3 33.02 0)
+			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30971,7 +30256,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 506.73 33.02 0)
+		(at 340.36 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30981,7 +30266,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef0994")
 		(property "Reference" "C16"
-			(at 508.762 27.94 0)
+			(at 342.392 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30992,7 +30277,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 508.762 29.972 0)
+			(at 342.392 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31003,7 +30288,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31014,7 +30299,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31025,7 +30310,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31036,7 +30321,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 508.762 38.1 0)
+			(at 342.392 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31047,7 +30332,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 508.762 34.036 0)
+			(at 342.392 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31058,7 +30343,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 508.762 36.068 0)
+			(at 342.392 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31069,7 +30354,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 508.762 32.004 0)
+			(at 342.392 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31080,7 +30365,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31091,7 +30376,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31102,7 +30387,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31113,7 +30398,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31124,7 +30409,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31135,7 +30420,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31146,7 +30431,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31157,7 +30442,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31168,7 +30453,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31179,7 +30464,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31190,7 +30475,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31201,7 +30486,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 506.73 33.02 0)
+			(at 340.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31234,7 +30519,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 518.16 33.02 0)
+		(at 351.79 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31244,7 +30529,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef89b3")
 		(property "Reference" "C18"
-			(at 520.192 27.94 0)
+			(at 353.822 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31255,7 +30540,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 520.192 29.972 0)
+			(at 353.822 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31266,7 +30551,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31277,7 +30562,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31288,7 +30573,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31299,7 +30584,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 520.192 38.1 0)
+			(at 353.822 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31310,7 +30595,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 520.192 34.036 0)
+			(at 353.822 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31321,7 +30606,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 520.192 36.068 0)
+			(at 353.822 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31332,7 +30617,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 520.192 32.004 0)
+			(at 353.822 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31343,7 +30628,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31354,7 +30639,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31365,7 +30650,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31376,7 +30661,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31387,7 +30672,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31398,7 +30683,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31409,7 +30694,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31420,7 +30705,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31431,7 +30716,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31442,7 +30727,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31453,7 +30738,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31464,7 +30749,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 518.16 33.02 0)
+			(at 351.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31497,7 +30782,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 529.59 33.02 0)
+		(at 363.22 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31507,7 +30792,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef89bd")
 		(property "Reference" "C19"
-			(at 531.622 27.94 0)
+			(at 365.252 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31518,7 +30803,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 531.622 29.972 0)
+			(at 365.252 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31529,7 +30814,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31540,7 +30825,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31551,7 +30836,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31562,7 +30847,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 531.622 38.1 0)
+			(at 365.252 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31573,7 +30858,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 531.622 34.036 0)
+			(at 365.252 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31584,7 +30869,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 531.622 36.068 0)
+			(at 365.252 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31595,7 +30880,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 531.622 32.004 0)
+			(at 365.252 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31606,7 +30891,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31617,7 +30902,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31628,7 +30913,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31639,7 +30924,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31650,7 +30935,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31661,7 +30946,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31672,7 +30957,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31683,7 +30968,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31694,7 +30979,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31705,7 +30990,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31716,7 +31001,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31727,7 +31012,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 529.59 33.02 0)
+			(at 363.22 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34488,7 +33773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 563.88 41.91 0)
+		(at 397.51 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34499,7 +33784,7 @@
 		(fields_autoplaced yes)
 		(uuid "0698f2b2-0967-4d66-9c6c-9171bfea927e")
 		(property "Reference" "#PWR062"
-			(at 563.88 48.26 0)
+			(at 397.51 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34510,7 +33795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 563.88 46.99 0)
+			(at 397.51 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34520,7 +33805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 563.88 41.91 0)
+			(at 397.51 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34531,7 +33816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 563.88 41.91 0)
+			(at 397.51 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34542,7 +33827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 563.88 41.91 0)
+			(at 397.51 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34644,7 +33929,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 563.88 33.02 0)
+		(at 397.51 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34654,7 +33939,7 @@
 		(dnp no)
 		(uuid "089b1a98-60ab-442e-ac76-5b20fc6b7bdf")
 		(property "Reference" "C22"
-			(at 565.912 27.94 0)
+			(at 399.542 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34665,7 +33950,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 565.912 29.972 0)
+			(at 399.542 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34676,7 +33961,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34687,7 +33972,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34698,7 +33983,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34709,7 +33994,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 565.912 38.1 0)
+			(at 399.542 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34720,7 +34005,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 565.912 34.036 0)
+			(at 399.542 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34731,7 +34016,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 565.912 36.068 0)
+			(at 399.542 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34742,7 +34027,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 565.912 32.004 0)
+			(at 399.542 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34753,7 +34038,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34764,7 +34049,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34775,7 +34060,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34786,7 +34071,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34797,7 +34082,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34808,7 +34093,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34819,7 +34104,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34830,7 +34115,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34841,7 +34126,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34852,7 +34137,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34863,7 +34148,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34874,7 +34159,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 563.88 33.02 0)
+			(at 397.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36002,6 +35287,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Oscillator:ASE-xxxMHz")
+		(at 199.39 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "158d0737-5315-491a-a430-dfffbc754760")
+		(property "Reference" "Y1"
+			(at 218.44 316.1598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASEMB-12.000MHZ-LC-T"
+			(at 218.44 318.6998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+			(at 217.17 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+			(at 196.85 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+			(at 199.39 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbe21259-7a37-4602-b803-0be5089271e5")
+		)
+		(pin "3"
+			(uuid "ade2bff8-c185-4a1f-ac5f-a2b8dc252dee")
+		)
+		(pin "1"
+			(uuid "919349bb-ba38-48c5-ab40-cefc804b5569")
+		)
+		(pin "4"
+			(uuid "c3efe2d4-4e15-477a-9a0e-5fe74c4cf78f")
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 411.48 246.38 0)
 		(unit 1)
@@ -36717,7 +36088,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 541.02 33.02 0)
+		(at 374.65 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36727,7 +36098,7 @@
 		(dnp no)
 		(uuid "258c4816-45ff-4431-9120-72ed127013b5")
 		(property "Reference" "C20"
-			(at 543.052 27.94 0)
+			(at 376.682 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36738,7 +36109,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 543.052 29.972 0)
+			(at 376.682 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36749,7 +36120,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36760,7 +36131,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36771,7 +36142,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36782,7 +36153,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 543.052 38.1 0)
+			(at 376.682 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36793,7 +36164,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 543.052 34.036 0)
+			(at 376.682 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36804,7 +36175,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 543.052 36.068 0)
+			(at 376.682 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36815,7 +36186,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 543.052 32.004 0)
+			(at 376.682 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36826,7 +36197,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36837,7 +36208,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36848,7 +36219,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36859,7 +36230,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36870,7 +36241,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36881,7 +36252,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36892,7 +36263,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36903,7 +36274,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36914,7 +36285,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36925,7 +36296,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36936,7 +36307,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36947,7 +36318,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 541.02 33.02 0)
+			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41541,8 +40912,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01C89W-LLY9XV")
-		(at 180.34 327.66 270)
+		(lib_id "power:+3V3")
+		(at 191.77 322.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41550,9 +40921,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5fb29ec2-b54b-4ab0-9fdb-422f36113ce4")
-		(property "Reference" "C6"
-			(at 185.42 329.692 0)
+		(fields_autoplaced yes)
+		(uuid "60a20f5c-ca38-442a-abd1-6aafe226bbb9")
+		(property "Reference" "#PWR080"
+			(at 195.58 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 187.96 322.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41562,19 +40945,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
-			(at 183.388 329.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 180.34 327.66 0)
+		(property "Footprint" ""
+			(at 191.77 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41584,8 +40956,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM1555C1H150JA01D\\datasheets"
-			(at 180.34 327.66 0)
+		(property "Datasheet" ""
+			(at 191.77 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41595,184 +40967,8 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "package" "M1005"
-			(at 175.26 329.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "voltage" "50V"
-			(at 179.324 329.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "dielectric" "C0G"
-			(at 177.292 329.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "tolerance" "5%"
-			(at 181.356 329.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "part_uid" "RP-01C89W-LLY9XV"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer" "Murata"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer_pn" "GRM1555C1H150JA01D"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "180mm paper taping"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging_qty" "10000"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "temp_coefficient" "C0G"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_max" "+125C"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_min" "-55C"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "material" "Ceramic"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "size" "1.0x0.5x0.5mm"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "capacitance" "15p"
-			(at 180.34 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_nom" "0.5mm"
-			(at 180.34 327.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41783,21 +40979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a439b685-086e-40b0-ba50-e067bfacc7a9")
-		)
-		(pin "2"
-			(uuid "46f0b978-a48b-4ea6-abfe-355a104bccca")
+			(uuid "7d0ff047-50ee-4ff8-96df-44b50dc219ef")
 		)
 		(instances
-			(project "RPI-RP2350B-MINIMAL_R4-S1"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "lioness_eps_v01"
 				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
-					(reference "C6")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -42359,7 +41546,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 463.55 24.13 0)
+		(at 297.18 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42370,7 +41557,7 @@
 		(fields_autoplaced yes)
 		(uuid "6829a0d9-5c3e-4891-b657-0915c4077048")
 		(property "Reference" "#PWR01"
-			(at 463.55 27.94 0)
+			(at 297.18 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42381,7 +41568,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 463.55 19.05 0)
+			(at 297.18 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42391,7 +41578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 463.55 24.13 0)
+			(at 297.18 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42402,7 +41589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 463.55 24.13 0)
+			(at 297.18 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42413,7 +41600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 463.55 24.13 0)
+			(at 297.18 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45150,6 +44337,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 199.39 314.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a546350-8028-45a6-80cf-1b45c2d5f017")
+		(property "Reference" "#PWR082"
+			(at 199.39 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 199.39 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 199.39 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "161fb0e7-a202-47d4-92b9-b7d5b2207f5b")
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:RESISTOR0603")
 		(at 431.8 254 90)
 		(unit 1)
@@ -45225,291 +44490,6 @@
 			(project "lioness_eps_v01"
 				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RPI_DB:Resistors | Chip | M1005/RP-019A1P-4Z6ZWY")
-		(at 208.28 327.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ca2a8d7-b8ce-4ff0-8cdb-5cd6740618b5")
-		(property "Reference" "R7"
-			(at 212.344 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 210.312 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RPI_COMPILED:generic_resc1005x35"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Resistors\\Chip\\M1005\\YAGEO_RC0402FR-07.autogen\\datasheets"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, Chip, 1kR, M1005, 63mW, 1%"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "power" "63mW"
-			(at 206.248 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "tolerance" "1%"
-			(at 208.28 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "package" "M1005"
-			(at 204.216 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "part_uid" "RP-019A1P-4Z6ZWY"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer" "Yageo"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer_pn" "RC0402FR-071KL"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "7 inch dia. paper taping reel"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging_qty" "10000"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "temp_coefficient" "100ppm/degC"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "voltage" "50V"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "size" "1x0.5x0.35mm"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "resistance" "1k"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_max" "0.4mm"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_min" "-55C"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_max" "+155C"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "material" "Thick Film"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "current" ""
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_nom" "0.35mm"
-			(at 208.28 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "010a173d-90f1-406a-b06a-7a6c409276d2")
-		)
-		(pin "2"
-			(uuid "689d9140-5ac3-4052-9a0a-33dffc5bac75")
-		)
-		(instances
-			(project "RPI-RP2350B-MINIMAL_R4-S1"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "lioness_eps_v01"
-				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -46993,84 +45973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 330.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8fd5feb-ef79-47bb-a680-66213b007239")
-		(property "Reference" "#PWR060"
-			(at 168.91 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 335.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb915357-8705-4d21-8be2-8f39352bd040")
-		)
-		(instances
-			(project "lioness_eps_v01"
-				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:RESISTOR0603")
 		(at 318.77 212.09 270)
 		(unit 1)
@@ -47742,6 +46644,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 314.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b452cb04-6645-4cb7-ab82-0202750258dd")
+		(property "Reference" "#PWR083"
+			(at 229.87 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 314.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a89f4c88-7ef9-44d2-8b21-7dfeda91a512")
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 248.92 290.83 0)
 		(unit 1)
@@ -47764,7 +46745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 251.46 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48262,6 +47243,86 @@
 			(project "lioness_eps_v01"
 				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 314.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c151b5b0-c8d0-4b02-a258-90254a4100d4")
+		(property "Reference" "C38"
+			(at 207.01 307.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 207.01 309.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 313.9948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb152abd-e1d9-4d2e-892b-e81abbe9817b")
+		)
+		(pin "1"
+			(uuid "5e8b994d-09b6-4264-a6f1-1ff5b177bf9e")
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -49409,7 +48470,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 552.45 33.02 0)
+		(at 386.08 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49419,7 +48480,7 @@
 		(dnp no)
 		(uuid "d207a733-52ff-49cd-b204-47a4b118718a")
 		(property "Reference" "C21"
-			(at 554.482 27.94 0)
+			(at 388.112 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49430,7 +48491,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 554.482 29.972 0)
+			(at 388.112 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49441,7 +48502,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49452,7 +48513,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49463,7 +48524,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49474,7 +48535,7 @@
 			)
 		)
 		(property "package" "M1005"
-			(at 554.482 38.1 0)
+			(at 388.112 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49485,7 +48546,7 @@
 			)
 		)
 		(property "voltage" "25V"
-			(at 554.482 34.036 0)
+			(at 388.112 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49496,7 +48557,7 @@
 			)
 		)
 		(property "dielectric" "X7R"
-			(at 554.482 36.068 0)
+			(at 388.112 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49507,7 +48568,7 @@
 			)
 		)
 		(property "tolerance" "10%"
-			(at 554.482 32.004 0)
+			(at 388.112 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49518,7 +48579,7 @@
 			)
 		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49529,7 +48590,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49540,7 +48601,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49551,7 +48612,7 @@
 			)
 		)
 		(property "packaging" "180mm paper taping"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49562,7 +48623,7 @@
 			)
 		)
 		(property "packaging_qty" "10000"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49573,7 +48634,7 @@
 			)
 		)
 		(property "temp_coefficient" "X7R"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49584,7 +48645,7 @@
 			)
 		)
 		(property "operating_temp_max" "+125C"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49595,7 +48656,7 @@
 			)
 		)
 		(property "operating_temp_min" "-55C"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49606,7 +48667,7 @@
 			)
 		)
 		(property "material" "Ceramic"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49617,7 +48678,7 @@
 			)
 		)
 		(property "size" "1.0x0.5x0.5mm"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49628,7 +48689,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49639,7 +48700,7 @@
 			)
 		)
 		(property "z_height_nom" "0.5mm"
-			(at 552.45 33.02 0)
+			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50339,273 +49400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RPI_DB:Frequency_Timing | Crystals/RP-01G8X7-GS352B")
-		(at 190.5 320.04 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd0fdcaf-56ed-460c-beac-ca6cbfc74af7")
-		(property "Reference" "X1"
-			(at 196.342 316.992 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 198.12 322.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RPI_COMPILED:generic_xtalcc320x250x80-4"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Frequency_Timing\\Crystals\\ABRACON_ABM8-272-T3\\datasheets"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XTAL, SMT, 12 MHz, Fundamental, Ftol=30ppm, Fstab=30ppm, 10pF, 3.2x2.5mm"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "part_uid" "RP-01G8X7-GS352B"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer" "Abracon"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer_pn" "ABM8-272-T3"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "180mm dia. tape & reel"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging_qty" "3000"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "size" "3.2x2.5x0.8mm"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "frequency" "12MHz"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "tolerance" "30ppm"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_max" "+85C"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "load_capacitance" "10pF"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_min" "-40C"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_max" ""
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "esr" "50R Max"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "package" "M3225"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_nom" "0.8mm"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "freq_stability" "30ppm"
-			(at 190.5 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c78e768-49f0-4235-936d-5ccb14d53d9b")
-		)
-		(pin "2"
-			(uuid "821aee34-919f-4325-8502-6146a7fbd63b")
-		)
-		(pin "3"
-			(uuid "2f1c9049-92b6-45d3-af7b-5128c4066b36")
-		)
-		(pin "4"
-			(uuid "679a7751-79f4-4b8c-aaf7-10d5354ffe88")
-		)
-		(instances
-			(project "RPI-RP2350B-MINIMAL_R4-S1"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-			(project "lioness_eps_v01"
-				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 252.73 0)
 		(unit 1)
@@ -51092,6 +49886,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 199.39 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef23d875-dee5-46d0-9ac9-90c917cba094")
+		(property "Reference" "#PWR081"
+			(at 199.39 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 335.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2506f71-9bfd-4cda-8294-9b33d54e69fb")
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 216.916 84.836 270)
 		(unit 1)
@@ -51251,270 +50123,6 @@
 			(project "lioness_eps_v01"
 				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01C89W-LLY9XV")
-		(at 180.34 312.42 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8e6e3c5-d783-4f7e-9568-47a2863d5b1c")
-		(property "Reference" "C5"
-			(at 185.42 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15p"
-			(at 183.388 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM1555C1H150JA01D\\datasheets"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "package" "M1005"
-			(at 175.26 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "voltage" "50V"
-			(at 179.324 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "dielectric" "C0G"
-			(at 177.292 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "tolerance" "5%"
-			(at 181.356 310.388 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "part_uid" "RP-01C89W-LLY9XV"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer" "Murata"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturer_pn" "GRM1555C1H150JA01D"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "180mm paper taping"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging_qty" "10000"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "temp_coefficient" "C0G"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_max" "+125C"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_min" "-55C"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "material" "Ceramic"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "size" "1.0x0.5x0.5mm"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "capacitance" "15p"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_nom" "0.5mm"
-			(at 180.34 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84111573-e434-4260-a2fb-e81c63018a6d")
-		)
-		(pin "2"
-			(uuid "558f5a0a-35eb-42fa-ba24-6f3038deff6e")
-		)
-		(instances
-			(project "RPI-RP2350B-MINIMAL_R4-S1"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "lioness_eps_v01"
-				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207/d6861b7a-483f-497b-a53e-78cc48fea903"
-					(reference "C5")
 					(unit 1)
 				)
 			)
