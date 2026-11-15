@@ -661,7 +661,7 @@
         "uuid": "5e490227-0696-40e0-90d9-03409ea27a33"
       }
     ],
-    "used_designators": "Solar_Cell_4-12,D2-3",
+    "used_designators": "U3-4,D2-4,SC1-12,#PWR4,#PWR9,#PWR12-16,C1-2",
     "variants": []
   },
   "sheets": [
