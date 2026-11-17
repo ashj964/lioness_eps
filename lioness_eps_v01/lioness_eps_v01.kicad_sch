@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 73.66 25.4)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bafdaff4-452c-4552-aef1-04cff1d6205e")
+		(property "Sheetname" "Battery Charging"
+			(at 73.66 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_charging\\battery_charging\\battery_charging.kicad_sch"
+			(at 73.66 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lioness_eps_v01"
+				(path "/aa28519f-b679-4a2d-85d7-ece879a7d207"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 187.96 74.93)
 		(size 35.306 16.51)
 		(exclude_from_sim no)
