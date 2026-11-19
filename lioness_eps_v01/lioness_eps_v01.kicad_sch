@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "battery_charging\\battery_charging\\battery_charging.kicad_sch"
+		(property "Sheetfile" "battery_charging/battery_charging/battery_charging.kicad_sch"
 			(at 73.66 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
