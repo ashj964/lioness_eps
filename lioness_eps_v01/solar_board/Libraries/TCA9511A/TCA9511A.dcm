@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA9511A
+D I2C Buffer 3.3V 8-Pin VSSOP T/R
+K
+F https://www.arrow.com/en/products/tca9511a/texas-instruments?region=nac
+$ENDCMP
+#
+#End Doc Library
